@@ -2,4 +2,5 @@
 
 npm inastall
 
+npm install router axios --save-dev
 npm run dev
