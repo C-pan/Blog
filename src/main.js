@@ -25,7 +25,7 @@ import store from './store/index.js'
 Vue.use(VueRouter);
 
 const router=new VueRouter({
-	mode:'history',      //切换路径模式，变成history模式  去掉默认的/#
+	// mode:'history',      //切换路径模式，变成history模式  去掉默认的/#
 	routes              //使用routes配置文件
 });
 
