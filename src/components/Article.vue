@@ -92,7 +92,7 @@ export default{
 		},
 		getArticleData:function (id) {
 			var _this=this;
-			this.$http.get('../src/data/article.data').then(function (res) {
+			this.$http.get('./src/data/article.data').then(function (res) {
 				
 				_this.articleData=res.data[id];
 				console.log(_this.articleData);
