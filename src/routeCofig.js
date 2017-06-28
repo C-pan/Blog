@@ -12,6 +12,7 @@ import Edit from './components/Edit.vue'
 
 
 export default[
+	model:'history',
 	{
 		path:'/',
 		redirect:'/home', //设置路由重新定向  默认跳转的路径
